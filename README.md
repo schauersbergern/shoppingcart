@@ -1,5 +1,17 @@
 # shoppingcart
 
+For running the app execute:
+
+docker-compose up -d
+
+Then import the database:
+
+docker exec -i "mysql-container-name" mysql -uroot -prootpassword Shoppingcart_2019-03-09.sql
+
+The app runs then on:
+
+http://localhost/
+
 The following queries are possible:
 
 ### ?method=cacheall
